@@ -1,4 +1,3 @@
-<script>
     function startTimer(duration, display) {
         var timer = duration,
             minutes, seconds;
@@ -18,4 +17,3 @@
             display = document.querySelector('#time');
         startTimer(fiveMinutes, display);
     };
-</script>
